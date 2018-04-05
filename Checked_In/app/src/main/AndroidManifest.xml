@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    package="com.example.feliz.checked_in">
+
+
+    <!-- The ACCESS_COARSE/FINE_LOCATION permissions are not required to use Google Maps Android API v2, but you must specify either coarse or fine location permissions for the 'MyLocation' functionality. -->
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:name="com.example.feliz.checked_in.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:background="@drawable/grdnt"
+        android:label="CheckedIn"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+
+        <!-- The API key for Google Maps-based APIs is defined as a string resource. (See the file "res/values/google_maps_api.xml"). Note that the API key is linked to the encryption key used to sign the APK. You need a different API key for each encryption key, including the release key that is used to sign the APK for publishing. You can define the keys for the debug and release targets in src/debug/ and src/release/. -->
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="@string/google_maps_key" />"
+
+        <activity
+            android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Category"></activity>
+        <activity android:name=".Notification"></activity>
+        <activity android:name=".Event_Profile"></activity>
+        <activity android:name=".CreateEvent"></activity>
+        <activity android:name=".Tickets"></activity>
+        <activity android:name=".Events"></activity>
+        <activity android:name=".FeedsActivity"></activity>
+        <activity android:name=".Register"></activity>
+        <activity android:name=".academic"></activity>
+        <activity android:name=".restaurants"></activity>
+        <activity android:name=".club"></activity>
+        <activity android:name=".movie"></activity>
+        <activity android:name=".social"></activity>
+        <activity android:name=".fashion"></activity>
+        <activity android:name=".Category_Profile"></activity>
+        <activity android:name=".Buy_Ticket"></activity>
+        <activity android:name=".Transport"></activity>
+        <activity android:name=".Buy"></activity>
+        <activity android:name=".ReaderActivity"></activity>
+        <activity android:name=".Declined"></activity>
+        <activity android:name=".Granted"></activity>
+    </application>
+
+
+</manifest>

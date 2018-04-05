@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grdnt"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Event Title"
+                    android:id="@+id/txtTitle"
+                    android:textColor="#ECF0F1"
+                    android:textSize="18dp"
+                    android:background="@drawable/grdnt"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold|italic" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/white_bg_bottom_shadow"
+                    android:paddingBottom="30dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:id="@+id/LinearLayout123">
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Day: "
+                            android:id="@+id/textView23"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:textColor="#333333"
+                            android:layout_alignParentTop="true" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="May 4, 2015"
+                            android:id="@+id/txtDate"
+                            android:textSize="16dp"
+                            android:textColor="#333333"
+                            android:layout_marginStart="61dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_toEndOf="@+id/textView23" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="10dp" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Time: "
+                            android:id="@+id/textView37"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:textColor="#333333" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="7:40 PM"
+                            android:id="@+id/txtTime"
+                            android:textSize="16dp"
+                            android:textColor="#333333"
+                            android:layout_marginStart="53dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_toEndOf="@+id/textView37" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Duration: "
+                            android:id="@+id/textView35"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:textColor="#333333" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="1 hour"
+                            android:id="@+id/txtDuration"
+                            android:textSize="16dp"
+                            android:textColor="#333333"
+                            android:layout_alignParentTop="true"
+                            android:layout_toEndOf="@+id/textView35"
+                            android:layout_marginStart="25dp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="15dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Location: "
+                            android:id="@+id/textView36"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:textColor="#333333" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Somewhere"
+                            android:id="@+id/txtLocation"
+                            android:textSize="16dp"
+                            android:textColor="#333333"
+                            android:layout_alignParentTop="true"
+                            android:layout_toEndOf="@+id/textView36"
+                            android:layout_marginStart="22dp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="15dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Description: "
+                        android:id="@+id/textView38"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:textColor="#333333"
+
+                        android:elegantTextHeight="false"
+                        android:lineSpacingMultiplier="1.2"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Description: "
+                            android:id="@+id/txtDescription"
+                            android:textSize="16dp"
+                            android:textColor="#333333"
+                            android:layout_toRightOf="@+id/textView38"
+                            android:layout_toEndOf="@+id/textView38"
+                            />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:padding="@dimen/activity_horizontal_margin">
+                        <Button
+                            android:id="@+id/btnCheck"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:background="#009a9a"
+                            android:textColor="#d9e5f3"
+                            android:text="Checkin" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="15dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Event Checkins: "
+                            android:id="@+id/textView39"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:textColor="#333333"
+
+                            android:elegantTextHeight="false"
+                            android:lineSpacingMultiplier="1.2"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="0"
+                            android:id="@+id/txtNumber"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:textColor="#333333"
+                            android:layout_marginStart="14dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_toEndOf="@+id/textView39" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
