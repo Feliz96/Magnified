@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.feliz.magnified_pictures.Book"
+    tools:showIn="@layout/app_bar_main">
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout123"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical"
+                    android:paddingBottom="30dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp">
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="10dp">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:orientation="horizontal"
+                            android:layout_marginBottom="20dp"
+                            >
+
+                            <ImageView
+                                android:id="@+id/imgIcon"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/logo"
+                                android:scaleType="center"
+                                android:layout_weight="1.0" />
+                        </RelativeLayout>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:id="@+id/txtBook"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:textColor="#6F3254"
+                            android:text="What kind of photographer are you looking for ?"
+                            android:textSize="25dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:id="@+id/txtClick"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:textColor="#6F3254"
+                            android:text="Select from the list below"
+                            android:textSize="15dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="5dp">
+
+                        <TextView
+                            android:id="@+id/txtWedding"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:textColor="#FEB801"
+                            android:text="Wedding"
+                            android:textSize="20dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:clickable="true"
+                             />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="5dp">
+
+                        <TextView
+                            android:id="@+id/txtCorporate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:textColor="#FEB801"
+                            android:text="Corporate"
+                            android:textSize="20dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:clickable="true"
+                            />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="5dp">
+
+                        <TextView
+                            android:id="@+id/txtFamily"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:textColor="#FEB801"
+                            android:text="Family"
+                            android:textSize="20dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:clickable="true"
+                            />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="5dp">
+
+                        <TextView
+                            android:id="@+id/txtStudio"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:textColor="#FEB801"
+                            android:text="Studio"
+                            android:textSize="20dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:clickable="true"
+                            />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="5dp">
+
+                        <TextView
+                            android:id="@+id/txtGraduations"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:textColor="#FEB801"
+                            android:text="Graduations"
+                            android:textSize="20dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:clickable="true"
+                            />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="5dp">
+
+                        <TextView
+                            android:id="@+id/txtFarewell"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:textColor="#FEB801"
+                            android:text="Farewell Parties"
+                            android:textSize="20dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:clickable="true"
+                            />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="5dp">
+
+                        <TextView
+                            android:id="@+id/txtBaby"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:textColor="#FEB801"
+                            android:text="Baby Showers"
+                            android:textSize="20dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:clickable="true"
+                            />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="5dp">
+
+                        <TextView
+                            android:id="@+id/txtCouple"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:textColor="#FEB801"
+                            android:text="Couple Shoot"
+                            android:textSize="20dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:clickable="true"
+                            />
+                    </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Magnified_Pictures</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+
+
+    <string-array name="Duration">
+        <item>Select duration</item>
+        <item>Half day</item>
+        <item> Full day</item>
+    </string-array>
+
+    <string-array name="Category">
+        <item>Select Category</item>
+        <item>Wedding</item>
+        <item>Corporate</item>
+        <item>Family</item>
+        <item>Studio</item>
+        <item>Graduation</item>
+        <item>Farewell Party</item>
+        <item>Baby Shower</item>
+        <item>Couple Shoot</item>
+    </string-array>
+
+    <string-array name="City">
+        <item>Select City</item>
+        <item>Johannesburg</item>
+        <item>Durban</item>
+        <item>Cape Town</item>
+        <item>Port Elizabeth</item>
+    </string-array>
+
+
+</resources>

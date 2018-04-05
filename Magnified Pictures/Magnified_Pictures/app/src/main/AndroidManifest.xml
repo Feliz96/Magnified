@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.feliz.magnified_pictures">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+
+        android:label="Magnified Pictures
+"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+
+    <activity
+            android:name=".Login"
+            android:theme="@style/AppTheme.NoActionBar"
+
+            android:allowBackup="true"
+            android:background="@color/colorPrimary"
+            android:supportsRtl="true"
+            >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Arrive"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:allowBackup="true"
+            android:label="Arrival"
+            android:background="@color/colorPrimary"
+            android:supportsRtl="true">
+        </activity>
+        <activity android:name=".Book"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:allowBackup="true"
+            android:label="Book Photographer"
+            android:background="@color/colorPrimary"
+            android:supportsRtl="true">
+        </activity>
+
+
+        <activity android:name=".City"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:allowBackup="true"
+            android:label="City"
+            android:background="@color/colorPrimary"
+            android:supportsRtl="true">
+        </activity>
+        <activity android:name=".Browse"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:allowBackup="true"
+            android:background="@color/colorPrimary"
+            android:label="Gallery"
+            android:supportsRtl="true">
+            ></activity>
+
+        <activity android:name=".Budget"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:allowBackup="true"
+            android:label="Budget"
+            android:background="@color/colorPrimary"
+            android:supportsRtl="true">
+        </activity>
+
+        <activity android:name=".CalendarActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:allowBackup="true"
+            android:label="Calendar"
+            android:background="@color/colorPrimary"
+            android:supportsRtl="true">
+        </activity>
+
+
+        <activity android:name=".ImageView"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:allowBackup="true"
+            android:background="@color/colorPrimary"
+            android:supportsRtl="true">
+        </activity>
+
+        <activity android:name=".Full_Image"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:allowBackup="true"
+            android:label="Full View"
+            android:background="@color/colorPrimary"
+            android:supportsRtl="true">
+        </activity>
+
+        <activity android:name=".Booking"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:allowBackup="true"
+            android:label="Booking Details"
+            android:background="@color/colorPrimary"
+            android:supportsRtl="true">
+        </activity>
+
+        <activity android:name=".Home"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:allowBackup="true"
+            android:label="Home"
+            android:background="@color/colorPrimary"
+            android:supportsRtl="true">
+        </activity>
+
+        <activity android:name=".Register"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:allowBackup="true"
+            android:label="Full View"
+            android:background="@color/colorPrimary"
+            android:supportsRtl="true">
+        </activity>
+
+
+
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:allowBackup="true"
+            android:label="Full View"
+            android:background="@color/colorPrimary"
+            android:supportsRtl="true">
+        </activity>
+
+        <activity android:name=".Photo"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:allowBackup="true"
+            android:label="Confirm Photographer"
+            android:background="@color/colorPrimary"
+            android:supportsRtl="true">
+        </activity>
+
+        <activity android:name=".Rate"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:allowBackup="true"
+            android:label="Rate"
+            android:background="@color/colorPrimary"
+            android:supportsRtl="true">
+        </activity>
+
+
+
+
+    </application>
+
+</manifest>

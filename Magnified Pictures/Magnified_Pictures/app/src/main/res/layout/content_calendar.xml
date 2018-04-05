@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingRight="0dp"
+    android:paddingLeft="0dp"
+    android:paddingTop="0dp"
+    android:layout_marginTop="20dp"
+    tools:context="com.example.feliz.magnified_pictures.CalendarActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:text="Please select date"
+            android:textColor="#6F3254"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="50dp"
+            android:layout_alignParentTop="true"
+
+            />
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="300dp"
+        android:layout_centerInParent="true"
+        android:layout_height="300dp"
+        app:mcv_showOtherDates="all"
+        app:mcv_selectionColor="#6F3254"
+        />
+
+
+
+
+
+<Button
+    android:id="@+id/btnNext"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Next"
+    android:textColor="#6F3254"
+    android:background="#FEB801"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true"
+
+    />
+
+    <TextView
+        android:id="@+id/txtdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_above="@+id/calendarView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:text=""
+        android:textColor="#6F3254" />
+
+</RelativeLayout>
